@@ -4,8 +4,4 @@ addressbook_contact:
 
 addressbook:
     resource: "@AddressbookBundle/Resources/config/routing.yml"
-    prefix:   /addressbook/
-
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+    prefix:   /

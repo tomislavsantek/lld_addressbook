@@ -12,7 +12,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;use Symfony\Component
 /**
  * Contact controller.
  *
- * @Route("contact")
+ * @Route("/")
  */
 class ContactController extends Controller
 {
