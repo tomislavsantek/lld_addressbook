@@ -1,0 +1,11 @@
+addressbook_contact:
+    resource: "@AddressbookBundle/Controller/ContactController.php"
+    type:     annotation
+
+addressbook:
+    resource: "@AddressbookBundle/Resources/config/routing.yml"
+    prefix:   /addressbook/
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

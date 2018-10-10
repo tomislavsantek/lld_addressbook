@@ -1,0 +1,3 @@
+addressbook_homepage:
+    path:     /
+    defaults: { _controller: AddressbookBundle:Default:index }
